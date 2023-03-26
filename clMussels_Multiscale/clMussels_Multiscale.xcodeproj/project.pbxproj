@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107EB5481A5D14F000DA064D /* Device_Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107EB5471A5D14F000DA064D /* Device_Utilities.cpp */; };
+		109C73871A495795003BC5CC /* Check_Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109C73861A495795003BC5CC /* Check_Utilities.cpp */; };
+		10A131381A4830040052C951 /* Save_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131311A4830040052C951 /* Save_data.cpp */; };
+		10A1313A1A4830040052C951 /* Initializations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131331A4830040052C951 /* Initializations.cpp */; };
+		10A1313B1A4830040052C951 /* Main_Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131341A4830040052C951 /* Main_Program.cpp */; };
+		10A1313C1A4830040052C951 /* Transfer_between_PDE_IBM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131361A4830040052C951 /* Transfer_between_PDE_IBM.cpp */; };
+		10A1313F1A4830820052C951 /* PDE_Computing_Kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 10A1313E1A4830820052C951 /* PDE_Computing_Kernel.cl */; };
+		10A131571A4849760052C951 /* IBM_Computing_Kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 10A131561A4849760052C951 /* IBM_Computing_Kernel.cl */; };
+		10A1316D1A485D350052C951 /* oclCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131651A485D350052C951 /* oclCommon.cpp */; };
+		10A1316E1A485D350052C951 /* oclRadixSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131671A485D350052C951 /* oclRadixSort.cpp */; };
+		10A1316F1A485D350052C951 /* oclScan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A131691A485D350052C951 /* oclScan.cpp */; };
+		10A131701A485D350052C951 /* oclRadixSort.cl in Sources */ = {isa = PBXBuildFile; fileRef = 10A1316B1A485D350052C951 /* oclRadixSort.cl */; };
+		10A131711A485D350052C951 /* oclScan.cl in Sources */ = {isa = PBXBuildFile; fileRef = 10A1316C1A485D350052C951 /* oclScan.cl */; };
+		10A131751A485D4A0052C951 /* clMersenneTwister.cl in Sources */ = {isa = PBXBuildFile; fileRef = 10A131721A485D4A0052C951 /* clMersenneTwister.cl */; };
+		10BF6F251A49F52500BEA40F /* IBM_program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10BF6F231A49F52500BEA40F /* IBM_program.cpp */; };
+		10D038141A5801E5004365C5 /* Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10D038121A5801E5004365C5 /* Profiler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10A131251A4823A50052C951 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		107EB5471A5D14F000DA064D /* Device_Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Device_Utilities.cpp; sourceTree = "<group>"; };
+		109C73861A495795003BC5CC /* Check_Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Check_Utilities.cpp; sourceTree = "<group>"; };
+		10A131271A4823A50052C951 /* clMussels_Multiscale */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = clMussels_Multiscale; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A131311A4830040052C951 /* Save_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Save_data.cpp; sourceTree = "<group>"; };
+		10A131331A4830040052C951 /* Initializations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Initializations.cpp; sourceTree = "<group>"; };
+		10A131341A4830040052C951 /* Main_Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main_Program.cpp; sourceTree = "<group>"; };
+		10A131351A4830040052C951 /* Settings_and_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings_and_Parameters.h; sourceTree = "<group>"; };
+		10A131361A4830040052C951 /* Transfer_between_PDE_IBM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transfer_between_PDE_IBM.cpp; sourceTree = "<group>"; };
+		10A1313E1A4830820052C951 /* PDE_Computing_Kernel.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = PDE_Computing_Kernel.cl; sourceTree = "<group>"; };
+		10A131401A4830BE0052C951 /* Device_Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device_Utilities.h; sourceTree = "<group>"; };
+		10A131411A4832B40052C951 /* Forward_Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forward_Definitions.h; sourceTree = "<group>"; };
+		10A131561A4849760052C951 /* IBM_Computing_Kernel.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = IBM_Computing_Kernel.cl; sourceTree = "<group>"; };
+		10A131651A485D350052C951 /* oclCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oclCommon.cpp; path = oclRadixSort/oclCommon.cpp; sourceTree = "<group>"; };
+		10A131661A485D350052C951 /* oclCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oclCommon.h; path = oclRadixSort/oclCommon.h; sourceTree = "<group>"; };
+		10A131671A485D350052C951 /* oclRadixSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oclRadixSort.cpp; path = oclRadixSort/oclRadixSort.cpp; sourceTree = "<group>"; };
+		10A131681A485D350052C951 /* oclRadixSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oclRadixSort.h; path = oclRadixSort/oclRadixSort.h; sourceTree = "<group>"; };
+		10A131691A485D350052C951 /* oclScan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oclScan.cpp; path = oclRadixSort/oclScan.cpp; sourceTree = "<group>"; };
+		10A1316A1A485D350052C951 /* oclScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oclScan.h; path = oclRadixSort/oclScan.h; sourceTree = "<group>"; };
+		10A1316B1A485D350052C951 /* oclRadixSort.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; name = oclRadixSort.cl; path = oclRadixSort/oclRadixSort.cl; sourceTree = "<group>"; };
+		10A1316C1A485D350052C951 /* oclScan.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; name = oclScan.cl; path = oclRadixSort/oclScan.cl; sourceTree = "<group>"; };
+		10A131721A485D4A0052C951 /* clMersenneTwister.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; name = clMersenneTwister.cl; path = oclMersenneTwister/clMersenneTwister.cl; sourceTree = "<group>"; };
+		10A131731A485D4A0052C951 /* clMersenneTwister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clMersenneTwister.h; path = oclMersenneTwister/clMersenneTwister.h; sourceTree = "<group>"; };
+		10A131741A485D4A0052C951 /* clMersenneTwister_Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clMersenneTwister_Functions.h; path = oclMersenneTwister/clMersenneTwister_Functions.h; sourceTree = "<group>"; };
+		10BF6F231A49F52500BEA40F /* IBM_program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IBM_program.cpp; sourceTree = "<group>"; };
+		10BF6F241A49F52500BEA40F /* IBM_program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBM_program.h; sourceTree = "<group>"; };
+		10D038121A5801E5004365C5 /* Profiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Profiler.cpp; sourceTree = "<group>"; };
+		10D038131A5801E5004365C5 /* Profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profiler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A131241A4823A50052C951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A1311E1A4823A50052C951 = {
+			isa = PBXGroup;
+			children = (
+				10A131291A4823A50052C951 /* clMussels_Multiscale */,
+				10A131281A4823A50052C951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A131281A4823A50052C951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A131271A4823A50052C951 /* clMussels_Multiscale */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A131291A4823A50052C951 /* clMussels_Multiscale */ = {
+			isa = PBXGroup;
+			children = (
+				10A131341A4830040052C951 /* Main_Program.cpp */,
+				10A131351A4830040052C951 /* Settings_and_Parameters.h */,
+				10A131411A4832B40052C951 /* Forward_Definitions.h */,
+				10BF6F231A49F52500BEA40F /* IBM_program.cpp */,
+				10BF6F241A49F52500BEA40F /* IBM_program.h */,
+				10A131561A4849760052C951 /* IBM_Computing_Kernel.cl */,
+				10A1313E1A4830820052C951 /* PDE_Computing_Kernel.cl */,
+				10D038131A5801E5004365C5 /* Profiler.h */,
+				10D038121A5801E5004365C5 /* Profiler.cpp */,
+				10A131361A4830040052C951 /* Transfer_between_PDE_IBM.cpp */,
+				10A131331A4830040052C951 /* Initializations.cpp */,
+				10A131401A4830BE0052C951 /* Device_Utilities.h */,
+				107EB5471A5D14F000DA064D /* Device_Utilities.cpp */,
+				109C73861A495795003BC5CC /* Check_Utilities.cpp */,
+				10A131311A4830040052C951 /* Save_data.cpp */,
+				10A131481A48493F0052C951 /* oclRadixSort */,
+				10A131461A4849010052C951 /* oclMersenneTwister */,
+			);
+			path = clMussels_Multiscale;
+			sourceTree = "<group>";
+		};
+		10A131461A4849010052C951 /* oclMersenneTwister */ = {
+			isa = PBXGroup;
+			children = (
+				10A131721A485D4A0052C951 /* clMersenneTwister.cl */,
+				10A131731A485D4A0052C951 /* clMersenneTwister.h */,
+				10A131741A485D4A0052C951 /* clMersenneTwister_Functions.h */,
+			);
+			name = oclMersenneTwister;
+			sourceTree = "<group>";
+		};
+		10A131481A48493F0052C951 /* oclRadixSort */ = {
+			isa = PBXGroup;
+			children = (
+				10A131651A485D350052C951 /* oclCommon.cpp */,
+				10A131661A485D350052C951 /* oclCommon.h */,
+				10A131671A485D350052C951 /* oclRadixSort.cpp */,
+				10A131681A485D350052C951 /* oclRadixSort.h */,
+				10A131691A485D350052C951 /* oclScan.cpp */,
+				10A1316A1A485D350052C951 /* oclScan.h */,
+				10A1316B1A485D350052C951 /* oclRadixSort.cl */,
+				10A1316C1A485D350052C951 /* oclScan.cl */,
+			);
+			name = oclRadixSort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A131261A4823A50052C951 /* clMussels_Multiscale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A1312E1A4823A50052C951 /* Build configuration list for PBXNativeTarget "clMussels_Multiscale" */;
+			buildPhases = (
+				10A131231A4823A50052C951 /* Sources */,
+				10A131241A4823A50052C951 /* Frameworks */,
+				10A131251A4823A50052C951 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clMussels_Multiscale;
+			productName = clMussels_Multiscale;
+			productReference = 10A131271A4823A50052C951 /* clMussels_Multiscale */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A1311F1A4823A50052C951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Johan Van de Koppel";
+				TargetAttributes = {
+					10A131261A4823A50052C951 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 10A131221A4823A50052C951 /* Build configuration list for PBXProject "clMussels_Multiscale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10A1311E1A4823A50052C951;
+			productRefGroup = 10A131281A4823A50052C951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A131261A4823A50052C951 /* clMussels_Multiscale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A131231A4823A50052C951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107EB5481A5D14F000DA064D /* Device_Utilities.cpp in Sources */,
+				10A131571A4849760052C951 /* IBM_Computing_Kernel.cl in Sources */,
+				10A1316F1A485D350052C951 /* oclScan.cpp in Sources */,
+				109C73871A495795003BC5CC /* Check_Utilities.cpp in Sources */,
+				10A1313A1A4830040052C951 /* Initializations.cpp in Sources */,
+				10A1313B1A4830040052C951 /* Main_Program.cpp in Sources */,
+				10BF6F251A49F52500BEA40F /* IBM_program.cpp in Sources */,
+				10A1313C1A4830040052C951 /* Transfer_between_PDE_IBM.cpp in Sources */,
+				10A131711A485D350052C951 /* oclScan.cl in Sources */,
+				10A131701A485D350052C951 /* oclRadixSort.cl in Sources */,
+				10A1313F1A4830820052C951 /* PDE_Computing_Kernel.cl in Sources */,
+				10A131381A4830040052C951 /* Save_data.cpp in Sources */,
+				10A1316D1A485D350052C951 /* oclCommon.cpp in Sources */,
+				10A1316E1A485D350052C951 /* oclRadixSort.cpp in Sources */,
+				10A131751A485D4A0052C951 /* clMersenneTwister.cl in Sources */,
+				10D038141A5801E5004365C5 /* Profiler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10A1312C1A4823A50052C951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10A1312D1A4823A50052C951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10A1312F1A4823A50052C951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10A131301A4823A50052C951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A131221A4823A50052C951 /* Build configuration list for PBXProject "clMussels_Multiscale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A1312C1A4823A50052C951 /* Debug */,
+				10A1312D1A4823A50052C951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A1312E1A4823A50052C951 /* Build configuration list for PBXNativeTarget "clMussels_Multiscale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A1312F1A4823A50052C951 /* Debug */,
+				10A131301A4823A50052C951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A1311F1A4823A50052C951 /* Project object */;
+}
